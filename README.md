@@ -45,3 +45,4 @@ git commit -m "feat: initial commit for Illumio bash MCP server"
 # Link to your GitHub repo and push
 git remote add origin git@github.com:<your-username>/illumio-mcp-server.git
 git push -u origin main
+
