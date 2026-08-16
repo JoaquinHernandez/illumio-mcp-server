@@ -28,3 +28,20 @@ sudo dnf install -y curl jq
 
 # macOS (Homebrew)
 brew install curl jq
+
+
+---
+
+### Step-by-Step Commands to Push to GitHub
+
+```bash
+mkdir illumio-mcp-server && cd illumio-mcp-server
+git init -b main
+
+# Create the files above, then stage and commit:
+git add .
+git commit -m "feat: initial commit for Illumio bash MCP server"
+
+# Link to your GitHub repo and push
+git remote add origin git@github.com:<your-username>/illumio-mcp-server.git
+git push -u origin main
