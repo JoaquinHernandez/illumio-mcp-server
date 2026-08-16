@@ -1,0 +1,16 @@
+{
+  "mcpServers": {
+    "illumio": {
+      "command": "/bin/bash",
+      "args": ["/ABSOLUTE/PATH/TO/illumio-mcp-server/illumio_mcp.sh"],
+      "env": {
+        "ILLUMIO_PCE_HOST": "pce.yourdomain.com",
+        "ILLUMIO_PCE_PORT": "8443",
+        "ILLUMIO_ORG_ID": "1",
+        "ILLUMIO_API_KEY_USER": "api_xxxxxxxxxxxxxx",
+        "ILLUMIO_API_KEY_SECRET": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+        "ILLUMIO_INSECURE_TLS": "false"
+      }
+    }
+  }
+}
